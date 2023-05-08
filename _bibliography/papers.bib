@@ -1,83 +1,88 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+@article{sy_blue_2023,
+  abbr={KG},
+	title = {Blue {Brain} {Nexus}: {An} open, secure, scalable system for knowledge graph management and data-driven science},
+	volume = {14},
+	issn = {2210-4968},
+	doi = {10.3233/SW-222974},
+	abstract = {Modern data-driven science often consists of iterative cycles of data discovery, acquisition, preparation, analysis, model building and validation leading to knowledge discovery as well as dissemination at scale. The unique challenges of building and simulating the whole rodent brain in the Swiss EPFL Blue Brain Project (BBP) required a solution to managing large-scale highly heterogeneous data, and tracking their provenance to ensure quality, reproducibility and attribution throughout these iterative cycles. Here, we describe Blue Brain Nexus (BBN), an ecosystem of open source, domain agnostic, scalable, extensible data and knowledge graph management systems built by BBP to address these challenges. BBN builds on open standards and interoperable semantic web technologies to enable the creation and management of secure RDF-based knowledge graphs validated by W3C SHACL. BBN supports a spectrum of (meta)data modeling and representation formats including JSON and JSON-LD as well as more formally specified SHACL-based schemas enabling domain model-driven runtime API. With its streaming event-based architecture, BBN supports asynchronous building and maintenance of multiple extensible indices to ensure high performance search capabilities and enable analytics. We present four use cases and applications of BBN to large-scale data integration and dissemination challenges in computational modeling, neuroscience, psychiatry and open linked data.},
+	number = {4},
+	journal = {Semantic Web},
+	author = {Sy, Mohameth François and Roman, Bogdan and Kerrien, Samuel and Mendez, Didac Montero and Genet, Henry and Wajerowicz, Wojciech and Dupont, Michaël and Lavriushev, Ian and Machon, Julien and Pirman, Kenneth and Neela Mana, Dhanesh and Stafeeva, Natalia and Kaufmann, Anna-Kristin and Lu, Huanxiang and Lurie, Jonathan and Fonta, Pierre-Alexandre and Martinez, Alejandra Garcia Rojas and Ulbrich, Alexander D. and Lindqvist, Carolina and Jimenez, Silvia and Rotenberg, David and Markram, Henry and Hill, Sean L.},
+	year = {2023},
+	note = {Publisher: IOS Press},
+	keywords = {Knowledge graph, Data-driven science, Data management, Data science, Distributed system},
+	pages = {697--727},
+  doi={10.3233/SW-222974},
+  url={https://doi.org/10.3233/SW-222974},
+  html={https://doi.org/10.3233/SW-222974},
+  code={https://github.com/BlueBrain/nexus},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@ARTICLE{10.3389/fpubh.2021.695139,
+abbr={KG_NLP},  
+AUTHOR={Logette, Emmanuelle and Lorin, Charlotte and Favreau, Cyrille and Oshurko, Eugenia and Coggan, Jay S. and Casalegno, Francesco and Sy, Mohameth François and Monney, Caitlin and Bertschy, Marine and Delattre, Emilie and Fonta, Pierre-Alexandre and Krepl, Jan and Schmidt, Stanislav and Keller, Daniel and Kerrien, Samuel and Scantamburlo, Enrico and Kaufmann, Anna-Kristin and Markram, Henry},   
+	 
+TITLE={A Machine-Generated View of the Role of Blood Glucose Levels in the Severity of COVID-19},      
+	
+JOURNAL={Frontiers in Public Health},      
+	
+VOLUME={9},           
+	
+YEAR={2021},      
+	  
+URL={https://www.frontiersin.org/articles/10.3389/fpubh.2021.695139},       
+	
+DOI={10.3389/fpubh.2021.695139},      
+html={https://doi.org/10.3389/fpubh.2021.695139},
+	
+ISSN={2296-2565},   
+   
+ABSTRACT={SARS-CoV-2 started spreading toward the end of 2019 causing COVID-19, a disease that reached pandemic proportions among the human population within months. The reasons for the spectrum of differences in the severity of the disease across the population, and in particular why the disease affects more severely the aging population and those with specific preconditions are unclear. We developed machine learning models to mine 240,000 scientific articles openly accessible in the CORD-19 database, and constructed knowledge graphs to synthesize the extracted information and navigate the collective knowledge in an attempt to search for a potential common underlying reason for disease severity. The machine-driven framework we developed repeatedly pointed to elevated blood glucose as a key facilitator in the progression of COVID-19. Indeed, when we systematically retraced the steps of the SARS-CoV-2 infection, we found evidence linking elevated glucose to each major step of the life-cycle of the virus, progression of the disease, and presentation of symptoms. Specifically, elevations of glucose provide ideal conditions for the virus to evade and weaken the first level of the immune defense system in the lungs, gain access to deep alveolar cells, bind to the ACE2 receptor and enter the pulmonary cells, accelerate replication of the virus within cells increasing cell death and inducing an pulmonary inflammatory response, which overwhelms an already weakened innate immune system to trigger an avalanche of systemic infections, inflammation and cell damage, a cytokine storm and thrombotic events. We tested the feasibility of the hypothesis by manually reviewing the literature referenced by the machine-generated synthesis, reconstructing atomistically the virus at the surface of the pulmonary airways, and performing quantitative computational modeling of the effects of glucose levels on the infection process. We conclude that elevation in glucose levels can facilitate the progression of the disease through multiple mechanisms and can explain much of the differences in disease severity seen across the population. The study provides diagnostic considerations, new areas of research and potential treatments, and cautions on treatment strategies and critical care conditions that induce elevations in blood glucose levels.},
+selected={true},
+altmetric={110555952},
+code={https://github.com/BlueBrain/BlueGraph/tree/master/cord19kg}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@article{gillespie_neuron_2022,
+  abbr={NeuronInformatics},
+	title = {The {Neuron} {Phenotype} {Ontology}: {A} {FAIR} {Approach} to {Proposing} and {Classifying} {Neuronal} {Types}},
+	volume = {20},
+	issn = {1559-0089},
+	url = {https://doi.org/10.1007/s12021-022-09566-7},
+  html = {https://doi.org/10.1007/s12021-022-09566-7},
+	doi = {10.1007/s12021-022-09566-7},
+	abstract = {The challenge of defining and cataloging the building blocks of the brain requires a standardized approach to naming neurons and organizing knowledge about their properties. The US Brain Initiative Cell Census Network, Human Cell Atlas, Blue Brain Project, and others are generating vast amounts of data and characterizing large numbers of neurons throughout the nervous system. The neuroscientific literature contains many neuron names (e.g. parvalbumin-positive interneuron or layer 5 pyramidal cell) that are commonly used and generally accepted. However, it is often unclear how such common usage types relate to many evidence-based types that are proposed based on the results of new techniques. Further, comparing different types across labs remains a significant challenge. Here, we propose an interoperable knowledge representation, the Neuron Phenotype Ontology (NPO), that provides a standardized and automatable approach for naming cell types and normalizing their constituent phenotypes using identifiers from community ontologies as a common language. The NPO provides a framework for systematically organizing knowledge about cellular properties and enables interoperability with existing neuron naming schemes. We evaluate the NPO by populating a knowledge base with three independent cortical neuron classifications derived from published data sets that describe neurons according to molecular, morphological, electrophysiological, and synaptic properties. Competency queries to this knowledge base demonstrate that the NPO knowledge model enables interoperability between the three test cases and neuron names commonly used in the literature.},
+	number = {3},
+	journal = {Neuroinformatics},
+	author = {Gillespie, Thomas H. and Tripathy, Shreejoy J. and Sy, Mohameth François and Martone, Maryann E. and Hill, Sean L.},
+	month = jul,
+	year = {2022},
+	pages = {793--809},
+  altmetric={124396876},
+  selected={false},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+
+@article{sy_user_2012,
+  abbr={Bioinformatics},
+	title = {User centered and ontology based information retrieval system for life sciences},
+	volume = {13},
+	issn = {1471-2105},
+	url = {https://doi.org/10.1186/1471-2105-13-S1-S4},
+  html={https://doi.org/10.1186/1471-2105-13-S1-S4},
+	doi = {10.1186/1471-2105-13-S1-S4},
+	abstract = {Because of the increasing number of electronic resources, designing efficient tools to retrieve and exploit them is a major challenge. Some improvements have been offered by semantic Web technologies and applications based on domain ontologies. In life science, for instance, the Gene Ontology is widely exploited in genomic applications and the Medical Subject Headings is the basis of biomedical publications indexation and information retrieval process proposed by PubMed. However current search engines suffer from two main drawbacks: there is limited user interaction with the list of retrieved resources and no explanation for their adequacy to the query is provided. Users may thus be confused by the selection and have no idea on how to adapt their queries so that the results match their expectations.},
+	number = {1},
+	journal = {BMC Bioinformatics},
+	author = {Sy, Mohameth-François and Ranwez, Sylvie and Montmain, Jacky and Regnault, Armelle and Crampes, Michel and Ranwez, Vincent},
+	month = jan,
+	year = {2012},
+	pages = {S4},
+  selected={false}
 }

@@ -2,24 +2,34 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: mohameth_francois-web-2022.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Data, Knowledge Graph, NLP, Graph ML</p>
+    <p>Switzerland</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+
 social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_projects: true
+display_categories: [selected]
+nav_order: 1
+this_is_about: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+### Welcome 👋
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My name is Mohameth François Sy, hailing from [Senegal](https://en.wikipedia.org/wiki/Senegal), the westernmost country of the African continent mainland also known as [Land of Teraanga](https://www.bbc.com/travel/article/20201115-teraanga-the-word-that-defines-senegal). Worth a visit :sparkles:.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I've been working in the Data, Semantic Web and knowledge Graph engineering fields for more than 12 years now both in France and Switzerland. First as a researcher in France (PhD at [Ecole des Mines d'Alès](https://www.imt-mines-ales.fr/en) and Postdoctoral Fellow at [Grenoble LIG Lab](https://www.liglab.fr/en)) and then for 8+ years as a system engineer and engineering team lead at Ecole Polytechnique Fédérale de Lausanne ([EPFL,  in Switzerland](https://www.epfl.ch/research/domains/bluebrain/blue-brain/people/group-leaders/mohameth-francois-sy)).
+
+I've contributed to and led many Data and Knowledge Graph products projects from building to production deployment both in academic and industry contexts. I care about data quality, governance and connection.
+
+You'll find a selected list of projects and publications I contributed to as well as talks I gave in various event types such as meetups and workshops.
+
+Do not hesitate to contact me using one  of the following channels:
