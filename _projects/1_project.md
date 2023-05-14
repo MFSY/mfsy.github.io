@@ -1,44 +1,36 @@
 ---
 layout: page
-title: Knowledge Graph Forge
-description: A python framework for building, validating and using a knowledge graph
-img: https://raw.githubusercontent.com/BlueBrain/nexus-forge/master/docs/source/assets/bbnforge
+title: Knowledge Graph Analytics for insights on COVID-19
+description: knowledge graph generation, analysis and exploration from COVID-19 Open Research Dataset to perform literature review of the role of glucose metabolism deregulations in the progression of COVID-19.
+img: https://www.frontiersin.org/files/Articles/695139/fpubh-09-695139-HTML-r1/image_m/fpubh-09-695139-g001.jpg
 importance: 1
 category: work
 category_about: selected
-publications: [https://doi.org/10.3233/SW-222974]
----
-
+publications: [https://doi.org/10.3389/fpubh.2021.695139]
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://raw.githubusercontent.com/BlueBrain/nexus-forge/master/docs/source/assets/bbnforge" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://www.frontiersin.org/files/Articles/695139/fpubh-09-695139-HTML-r1/image_m/fpubh-09-695139-g001.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <iframe width="50%" height="auto" src="https://www.youtube.com/embed/iIJuG4K8nTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div class="caption">
-    The Nexus Forge bring together json-based metadata transformations declarative rules, W3C SHACL validation, JSON-LD to build knowledge graphs from various sources, query them using SPARQL and ElasticSearch and perform entity linking using various query and ML based techniques.
+    Knowledge Graph building and analytics pipeline from scientific literature (using NLP) to graph analytics. I enjoyed working on entity linking to build a co-occurence knowledge graph from extracted entities and on graph analytics to derive insights.
     </div>
     
 </div>
 
-## [Documentation](https://nexus-forge.readthedocs.io)
-
-## Code
-
-{% highlight shell %}
-
-pip install nexusforge
-
-{% endhighlight %}
+---
+## Code 
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.html repository="BlueBrain/nexus-forge" %}
+    {% include repository/repo_covid19.html repository="BlueBrain/BlueGraph/tree/master/cord19kg" %}
 </div>
 {% endif %}
 
-
-## Publication
+## Publication 
+---
 
 <div class="publications">
 

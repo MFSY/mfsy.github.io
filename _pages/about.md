@@ -28,8 +28,6 @@ My name is Mohameth François Sy, hailing from [Senegal](https://en.wikipedia.or
 
 I've been working in the Data, Semantic Web and knowledge Graph engineering fields for more than 12 years now both in France and Switzerland. First as a researcher in France (PhD at [Ecole des Mines d'Alès](https://www.imt-mines-ales.fr/en) and Postdoctoral Fellow at [Grenoble LIG Lab](https://www.liglab.fr/en)) and then for 8+ years as a system engineer and engineering team lead at Ecole Polytechnique Fédérale de Lausanne ([EPFL,  in Switzerland](https://www.epfl.ch/research/domains/bluebrain/blue-brain/people/group-leaders/mohameth-francois-sy)).
 
-I've contributed to and led many Data and Knowledge Graph products projects from building to production deployment both in academic and industry contexts. I care about data quality, governance and connection.
+I've contributed to and led many Data and Knowledge Graph products projects from building to production deployment both in academic and industry contexts.
 
-You'll find a selected list of projects and publications I contributed to as well as talks I gave in various event types such as meetups and workshops.
-
-Do not hesitate to contact me using one  of the following channels:
+You'll find a selected list of [projects](./projects) and [publications](./publications) I contributed to as well as [talks](./talks) I gave in various event types such as meetups and workshops.
