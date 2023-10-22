@@ -104,7 +104,7 @@ orcid_id: 0000-0002-4603-9838 # your ORCID ID
 google_analytics:  G-L4Y8NCZE90 # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification: google0dacfac4df26ce0c # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
