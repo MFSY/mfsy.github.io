@@ -11,7 +11,7 @@ publications: [https://doi.org/10.3389/fpubh.2021.695139]
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://www.frontiersin.org/files/Articles/695139/fpubh-09-695139-HTML-r1/image_m/fpubh-09-695139-g001.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://www.frontiersin.org/files/Articles/695139/fpubh-09-695139-HTML-r1/image_m/fpubh-09-695139-g001.jpg" title="Knowledge Graph building and analytics pipeline from scientific literature (using NLP) to graph analytics." class="img-fluid rounded z-depth-1" %}
     </div>
     <iframe width="50%" height="auto" src="https://www.youtube.com/embed/iIJuG4K8nTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div class="caption">

@@ -4,7 +4,7 @@ title: Brain Modeling Ontology
 description: RDFS/OWL Ontologies and SHACL schemas
 img: assets/img/7.jpg
 importance: 1
-category: 
+category:
 ---
 
 ---

@@ -1,0 +1,22 @@
+{
+    "placement_hints": {
+        "http://api.brain-map.org/api/v2/data/Structure/512": {
+          "container": "docker://image-for-cerebellum-placement-hints",
+          "cmd":"{params.app} --annotation-path {input.annotation} --hierarchy-path {input.hierarchy} --direction-vectors-path {input.direction_vectors} --output-dir {output}"
+        },
+        "http://api.brain-map.org/api/v2/data/Structure/549": {
+          "container": "docker://image-for-thalamus-placement-hints",
+          "cmd":"{params.app} --annotation-path {input.annotation} --hierarchy-path {input.hierarchy} --direction-vectors-path {input.direction_vectors} --output-dir {output}"
+        }
+    },
+    "another_rule": {
+        "http://api.brain-map.org/api/v2/data/Structure/315": {
+          "container": "docker://image-for-cerebellum-placement-hints",
+          "cmd":"{params.app} --annotation-path {input.annotation} --hierarchy-path {input.hierarchy} --direction-vectors-path {input.direction_vectors} --output-dir {output}"
+        },
+        "http://api.brain-map.org/api/v2/data/Structure/549": {
+          "container": "docker://image-for-thalamus-placement-hints",
+          "cmd":"{params.app} --annotation-path {input.annotation} --hierarchy-path {input.hierarchy} --direction-vectors-path {input.direction_vectors} --output-dir {output}"
+        }
+    }
+}
