@@ -9,7 +9,7 @@ profile:
   image: mohameth_francois-web-2022.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Team Lead, Data and Knowledge Engineering Manager, FAIR Data and Knowledge Graph, AI</p>
+    <p>Team Lead, Data and Knowledge Engineering, FAIR Data and Knowledge Graph, Search, AI</p>
 
 social: true  # includes social icons at the bottom of the page
 news: false  # includes a list of news items
