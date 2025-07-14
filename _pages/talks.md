@@ -2,7 +2,7 @@
 layout: page
 permalink: /talks/
 title: talks
-description: I enjoy presenting/sharing projects I worked on, both in technical and research contexts. Find below a selected list of meetups, workshops or conferences I was invited as speaker.
+description: I enjoy presenting/sharing projects I worked on, both in technical and non technical contexts. Find below a selected list of meetups, workshops or conferences I was invited as a speaker.
 nav: true
 nav_order: 4
 horizontal: true
